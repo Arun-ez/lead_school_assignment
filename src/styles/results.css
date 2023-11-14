@@ -1,0 +1,22 @@
+.result {
+    margin: 40px;
+}
+
+.places_grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.head>h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+@media (0px <=width <=620px) {
+    .places_grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

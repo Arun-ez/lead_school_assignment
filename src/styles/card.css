@@ -1,0 +1,9 @@
+.card h2,
+p {
+    margin: 0;
+}
+
+.card p {
+    font-weight: 500;
+    opacity: 80%;
+}
